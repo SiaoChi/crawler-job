@@ -8,6 +8,8 @@ import datetime
 
 load_dotenv()
 
+# 此頁面可以搭配cronTab座自動化排程，當爬蟲結束後可以寄信件通知
+
 # 主旨時間
 current_datetime = datetime.datetime.now()
 current_datetime_str = current_datetime.strftime('%Y-%m-%d %H:%M:%S')
